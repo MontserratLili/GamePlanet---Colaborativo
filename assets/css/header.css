@@ -1,3 +1,13 @@
 header{
   background-color: #233541;
+  padding: 2%;
+}
+
+.tamano-breadcrumb {
+  margin: 2%;
+  width: 50%;
+}
+
+.centrado {
+  text-align: -webkit-center;
 }
