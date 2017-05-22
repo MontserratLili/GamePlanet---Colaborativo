@@ -1,5 +1,28 @@
 #formulario{
-  padding: 4% 10%;
+  padding: 2% 10%;
   background-color: #E0E0E0;
-  height: 400px;
+  height: 500px;
+}
+
+input, textarea, button{
+  width: 70%;
+  padding: 1%;
+  margin: 1%;
+}
+
+iframe{
+  float: right;
+}
+
+.enviar button{
+  background-color: #233541;
+  color: #e0e0e0;
+  border: 1px solid #233541;
+}
+
+
+.contacto{
+  text-align: center;
+  margin-top: auto;
+  margin-bottom: 3%;
 }
