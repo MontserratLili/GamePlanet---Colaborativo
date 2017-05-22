@@ -2,21 +2,21 @@
   background-image: url(../images/Nintendo_Switch.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  height: 600px;
+  height: 700px;
 }
 
 .row-xbox-one {
   background-image: url(../images/xbox_one.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  height: 600px;
+  height: 700px;
 }
 
 .row-ps4 {
   background-image: url(../images/ps4.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  height: 600px;
+  height: 700px;
 }
 
 .titles {
@@ -45,5 +45,5 @@
 }
 
 .info-ps4 {
-  padding: 200px 0 0 20px;
+  padding: 40px 0 0 20px;
 }
