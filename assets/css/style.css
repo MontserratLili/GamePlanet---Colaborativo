@@ -4,7 +4,7 @@
   height: 490px;
 }
 
-input, textarea, button{
+input, textarea{
   width: 70%;
   padding: 1%;
   margin: 1%;
@@ -18,14 +18,18 @@ iframe{
   background-color: #233541;
   color: #e0e0e0;
   border: 1px solid #233541;
+  width: 30%;
+  padding: 4%;
+  margin-top: -20%;
+  margin-left: 20%;
 }
-
 
 .contacto{
   text-align: center;
   margin-top: auto;
   margin-bottom: 3%;
 }
+
 .bg-color{
 	background-color: #233541;
 }
@@ -56,13 +60,9 @@ iframe{
 ul{
 	list-style: none;
 }
+
 .bg{
 	background-color:  #E0E0E0;
 	padding: 10px 10px 10px 10px;
-}
-
-
-
-
 }
 
