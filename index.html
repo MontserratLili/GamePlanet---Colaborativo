@@ -10,43 +10,49 @@
     <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
     <link rel="stylesheet" href="assets/css/catalogo.css">
     <link rel="stylesheet" href="assets/css/style.css">
-  </head>
-  <body>
+    <link rel="stylesheet" href="assets/css/header.css">
+</head>
+<body>
   <header>
     <nav class="navbar navbar-default">
       <div class="container-fluid">
         <div class="row">
-          <!-- Brand and toggle get grouped for better mobile display -->
-          <div class="col-md-2">
-            <div class="navbar-header">
-              <img alt="Brand" src="assets/images/gameplanet-logo.png">
+          <div class="col-md-12">
+            <!-- logo -->
+            <div class="col-md-6">
+             <div class="navbar-header">
+               <img alt="Brand" src="assets/images/gameplanet-logo.png">
+             </div>
+            </div>
+
+            <!-- input de busqueda -->
+            <div class="col-md-6">
+             <div class="input-group">
+               <input type="text" class="form-control" placeholder="Search for...">
+               <span class="input-group-btn">
+                 <button class="btn btn-default" type="button"><span class="glyphicon glyphicon-search " aria-hidden="true"></span></button>
+               </span>
+             </div>
             </div>
           </div>
-          <!-- input de busqueda -->
-          <div class="col-md-3">
-            <a href="#">Inicio sesion</a>
-            <a href="#">Crea una cuenta</a>
-          </div>
-          <div class="col-md-2">
-           <div class="input-group">
-             <input type="text" class="form-control" placeholder="Search for...">
-             <span class="input-group-btn">
-               <button class="btn btn-default" type="button"><span class="glyphicon glyphicon-search " aria-hidden="true"></span></button>
-             </span>
-           </div><!-- /input-group -->
-          </div><!-- /.col-md-5 -->
-          <div class="col-md-5 text-center">
-            <a href="#">Nosotros</a>
-            <a href="#">Contacto</a>
-            <a href="#">prueba2</a>
 
-            <a href="#">prueba3</a>
-            <a href="#"><span class="glyphicon glyphicon-shopping-cart" aria-hidden="true"></span></a>
+          <!-- prueba breadcrumb -->
+          <!-- links de inicio y registro -->
+          <!-- links restantes -->
+          <div class="col-md-12 text-center">
+            <ol class="breadcrumb">
+              <li><a href="#">Crea una cuenta</a></li>
+              <li><a href="#">Inicio sesion</a></li>
+              <li><a href="#">Contacto</a></li>
+              <li><a href="#">Nosotros</a></li>
+              <li><a href="#"><span class="glyphicon glyphicon-shopping-cart" aria-hidden="true"></span></a></li>
+            </ol>
           </div>
-        </div>
+        </div><!-- /row -->
       </div><!-- /.container-fluid -->
     </nav>
   </header>
+
   <!-- inicia seccción Magenta -->
   <section class="container">
     <section class="row row-ns">
@@ -149,7 +155,7 @@
              <p class="col-lg-3 text-center"><small>Visa</small></p>
              <p class="col-lg-3 text-center"><small>Pay Pal</small></p>
              <p class="col-lg-3 text-center"><small>Master Card</small></p>
-        
+
             <hr class="col-lg-12  text-color">
             <div class=" bg-color">
               <p class="col-lg-3 text-center text-color">Nuestras redes Sociales</p>
@@ -164,6 +170,9 @@
          	  <img src="assets/images/gameplanet-logo.png">
          	</div>
          	<div class="col-lg-3 text-center text-color">
+         	  <i class="fa fa-android fa-2x" aria-hidden="true"></i>
+         	  <i class="fa fa-apple fa-2x" aria-hidden="true"></i>
+
          	  <i class="fa fa-android fa-2x circular" aria-hidden="true"></i>
          	  <i class="fa fa-apple fa-2x circular" aria-hidden="true"></i>
          	</div>
