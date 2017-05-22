@@ -4,7 +4,7 @@
   height: 490px;
 }
 
-input, textarea{
+input, button{
   width: 70%;
   padding: 1%;
   margin: 1%;
@@ -13,17 +13,6 @@ input, textarea{
 iframe{
   float: right;
 }
-
-.enviar button{
-  background-color: #233541;
-  color: #e0e0e0;
-  border: 1px solid #233541;
-  width: 30%;
-  padding: 4%;
-  margin-top: -20%;
-  margin-left: 20%;
-}
-
 .contacto{
   text-align: center;
   margin-top: auto;
@@ -73,4 +62,19 @@ ul a:hover{
     color: white;
     font-size: 15px;
     text-decoration: none;
+}
+textarea{
+  max-width: 70%;
+  max-height: 200px;
+  padding: 1%;
+  margin: 1%;
+}
+.enviar button{
+  background-color: #F47A07 ;
+  color: #233541 ;
+  border: 1px solid #F47A07 ;
+  width: 30%;
+  padding: 4%;
+  margin-top: -20%;
+  margin-left: 20%;
 }
