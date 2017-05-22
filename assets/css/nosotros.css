@@ -1,0 +1,28 @@
+*{
+    font-family: 'Roboto', sans-serif;
+}
+
+.fondoNaranja{
+    background-color: #F47A07;
+    padding-top: 8%;
+    padding-bottom: 8%;
+    color: #fff;
+}
+
+.encabezado{
+    font-size: 400%;
+}
+
+.lead{
+    margin-top: 2%;
+    font-weight: 100;
+}
+
+.social{
+    justify-content: center;
+    align-items: center;
+}
+.icono{
+    padding-left: 10%;
+    padding-top: 8%;
+}
