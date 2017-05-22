@@ -1,0 +1,49 @@
+.row-ns {
+  background-image: url(../images/Nintendo_Switch.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 600px;
+}
+
+.row-xbox-one {
+  background-image: url(../images/xbox_one.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 600px;
+}
+
+.row-ps4 {
+  background-image: url(../images/ps4.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 600px;
+}
+
+.titles {
+  font-size: 50px;
+  color: #e0e0e0;
+  position: relative;
+  top: 50px;
+}
+
+.titles-h3 {
+  font-size: 20px;
+  color: #fff;
+}
+
+.col-right-border {
+  border-right: 2px solid #e0e0e0;
+}
+
+.paragraph-style {
+  font-size: 13px;
+  color: #fff;
+}
+
+.info-xbox {
+  padding: 50px 0 0 0;
+}
+
+.info-ps4 {
+  padding: 200px 0 0 20px;
+}
